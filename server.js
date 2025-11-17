@@ -18,4 +18,6 @@ const userRouter = require('./routes/user');
 app.use('/', rootRouter)
 app.use('/users', userRouter);
 
-app.listen(process.env.PORT || 3000);
+// app.listen(process.env.PORT || 3000);
+
+module.exports = app
